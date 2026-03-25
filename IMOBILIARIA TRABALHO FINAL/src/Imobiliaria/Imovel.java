@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Imovel {
+public abstract class Imovel {
     protected StatusImovel status;
     protected Double valorVendaOuAluguel;
     protected LocalDate dataConstrucao;
