@@ -2,7 +2,7 @@ package Imobiliaria;
 
 import java.util.List;
 
-public class Pessoa {
+public abstract class Pessoa {
     protected String cpf;
     protected String nome;
     protected Endereco endereco;
